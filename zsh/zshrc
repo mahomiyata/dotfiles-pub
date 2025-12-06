@@ -1,0 +1,7 @@
+# ~/.dotfiles/zsh/zshrc
+
+# プロンプト
+[ -f "$HOME/.dotfiles/zsh/prompt.zsh" ] && source "$HOME/.dotfiles/zsh/prompt.zsh"
+
+# エイリアス
+[ -f "$HOME/.dotfiles/zsh/aliases.zsh" ] && source "$HOME/.dotfiles/zsh/aliases.zsh"
